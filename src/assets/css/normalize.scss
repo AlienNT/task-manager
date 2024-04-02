@@ -1,4 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+button, a {
+  all: unset;
+}
+img, label, input{
+  display: block;
+  width: 100%;
 }
